@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerCloud.DTO", "CustomerCloud.DTO\CustomerCloud.DTO.csproj", "{409CC233-6DA0-4F7F-AF54-2F82E687D69B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerCloud.Entities", "CustomerCloud.Entities\CustomerCloud.Entities.csproj", "{4AB65411-6B68-4B76-AFC1-A3B75F90D75E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerCloud.Logic", "CustomerCloud.Logic\CustomerCloud.Logic.csproj", "{CF817D82-D247-477E-BB41-B3A005719B8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerCloud.Repository", "CustomerCloud.Repository\CustomerCloud.Repository.csproj", "{BC179900-9BFF-4F02-8BC1-CC5298130A13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerCloud.WebAPI", "CustomerCloud.WebAPI\CustomerCloud.WebAPI.csproj", "{AE53F1F6-451C-4DF6-BCBE-CFBC8B59DF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerCloud.gRPCAPI", "CustomerCloud.gRPCAPI\CustomerCloud.gRPCAPI.csproj", "{B1FD6461-1D35-496E-9E52-A700049329BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409CC233-6DA0-4F7F-AF54-2F82E687D69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409CC233-6DA0-4F7F-AF54-2F82E687D69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409CC233-6DA0-4F7F-AF54-2F82E687D69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409CC233-6DA0-4F7F-AF54-2F82E687D69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB65411-6B68-4B76-AFC1-A3B75F90D75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB65411-6B68-4B76-AFC1-A3B75F90D75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB65411-6B68-4B76-AFC1-A3B75F90D75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB65411-6B68-4B76-AFC1-A3B75F90D75E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF817D82-D247-477E-BB41-B3A005719B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF817D82-D247-477E-BB41-B3A005719B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF817D82-D247-477E-BB41-B3A005719B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF817D82-D247-477E-BB41-B3A005719B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC179900-9BFF-4F02-8BC1-CC5298130A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC179900-9BFF-4F02-8BC1-CC5298130A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC179900-9BFF-4F02-8BC1-CC5298130A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC179900-9BFF-4F02-8BC1-CC5298130A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE53F1F6-451C-4DF6-BCBE-CFBC8B59DF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE53F1F6-451C-4DF6-BCBE-CFBC8B59DF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE53F1F6-451C-4DF6-BCBE-CFBC8B59DF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE53F1F6-451C-4DF6-BCBE-CFBC8B59DF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FD6461-1D35-496E-9E52-A700049329BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FD6461-1D35-496E-9E52-A700049329BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FD6461-1D35-496E-9E52-A700049329BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FD6461-1D35-496E-9E52-A700049329BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D69759AA-C6D0-4E0A-9703-0291F379D04C}
+	EndGlobalSection
+EndGlobal

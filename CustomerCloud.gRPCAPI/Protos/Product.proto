@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "CustomerCloud.gRPCAPI.Protos";
+
+import "google/protobuf/empty.proto";
+
+package CustomergRPC;
+
+service ProductSvc{
+		rpc ReadProduct(Id) returns (ProductProfile);
+		rpc CreateProduct(ProductProfile) returns (google.protobuf.Empty);
+		rpc UpdateProduct(ProductProfile) returns (google.protobuf.Empty);
+		rpc DeleteProduct(Id) returns (google.protobuf.Empty);
+}
+
+message Id{
+	string Identifier=1;
+}
+
+message ProductProfile{
+	 string Id = 1;
+     string Description =2;
+     double Price = 3;
+}

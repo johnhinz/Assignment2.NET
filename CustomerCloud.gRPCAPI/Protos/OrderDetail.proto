@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "CustomerCloud.gRPCAPI.Protos";
+
+import "google/protobuf/empty.proto";
+
+package CustomergRPC;
+
+service OrderDetailSvc{
+		rpc ReadOrderDetail(Id) returns (OrderDetailProfile);
+		rpc CreateOrderDetail(OrderDetailProfile) returns (google.protobuf.Empty);
+		rpc UpdateOrderDetail(OrderDetailProfile) returns (google.protobuf.Empty);
+		rpc DeleteOrderDetail(Id) returns (google.protobuf.Empty);
+}
+
+message Id{
+	string Identifier=1;
+}
+
+message OrderDetailProfile{
+	 string Id = 1;
+     ProductProfile Product =2;
+}
